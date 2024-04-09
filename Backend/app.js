@@ -9,7 +9,7 @@ const app = express();
 dotenv.config({path : "./config.env"});
 
 app.use(cors({
-    origin: [process.env.FRONTEND_URL],
+    origin: ["https://restaurant-reservation-dun.vercel.app/"],
     credentials: true,
     methods: [ 'POST']
 
