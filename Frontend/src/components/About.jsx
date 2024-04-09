@@ -21,7 +21,7 @@ const About = () => {
               iusto ipsum qui dolore ex, accusantium repellat mollitia
               repellendus.
             </p>
-            <Link to={"menu"}>
+            <Link to="menu">
               Explore Menu{" "}
               <span>
                 <HiOutlineArrowRight />
